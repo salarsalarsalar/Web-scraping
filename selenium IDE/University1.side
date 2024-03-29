@@ -1,0 +1,170 @@
+{
+  "id": "9068015f-a548-4d66-a625-47b88ee9c3e0",
+  "version": "2.0",
+  "name": "University",
+  "url": "https://www.eduvision.edu.pk/programs-offered-in-agricultural-sciences-at-bachelor-level-in-pakistan",
+  "tests": [{
+    "id": "b30e15ba-fa13-449d-bdcf-33e0b439d9cc",
+    "name": "University",
+    "commands": [{
+      "id": "98e31afc-cd26-44aa-9524-2aa691938535",
+      "comment": "",
+      "command": "open",
+      "target": "/programs-offered-in-engineering-at-bachelor-level-in-pakistan",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d24a043-5109-410b-b3b3-f235ed4bbf98",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e931b560-4d25-4f99-b28d-e3ff184d59da",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,127)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6665cb4f-35ab-4c52-a61f-1c20764703f6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,850)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a5ed1ae-9f18-4856-afef-ea89dc96425b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,987)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8c0ddbd-3ba2-46a8-b660-4821e90b606b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.list-group-item:nth-child(3) .btn:nth-child(1)",
+      "targets": [
+        ["css=.list-group-item:nth-child(3) .btn:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Universities')])[9]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/div/div[3]/div/div[2]/ul/li[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'institutions-offering-civil-with-field-engineering-at-bachelor-level-in-pakistan-page-1')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36866a32-7387-4b95-b707-e2de3dfe5d53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(3) .btn:nth-child(1)",
+      "targets": [
+        ["css=.list-group-item:nth-child(3) .btn:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Universities')])[9]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/div/div[3]/div/div[2]/ul/li[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'institutions-offering-civil-with-field-engineering-at-bachelor-level-in-pakistan-page-1')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e36f6722-8ad2-4b13-adc6-2c7d0c379097",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,537)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8b3abef5-d874-4886-ae11-6ec24d646401",
+    "name": "University7",
+    "commands": [{
+      "id": "f60088c6-f5aa-4507-b692-02fc3ef054b6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.eduvision.edu.pk/programs-offered-in-agricultural-sciences-at-bachelor-level-in-pakistan",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92561c0f-7ff8-4ceb-a107-097131e9f80b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84dbc93c-436b-4b2d-a0b7-3d2726fe0717",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc_list > li:nth-child(2) > a",
+      "targets": [
+        ["css=.sc_list > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Plant Breeding & Genetics')])[2]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/div/div[4]/div/article/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'institutions-offering-plant-breeding-genetics-with-field-agricultural-sciences-at-bachelor-level-in-pakistan-page-1')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e46a14d8-9289-41cd-80ab-324080b1b42f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.home_category_news > .page-title",
+      "targets": [
+        ["css=.home_category_news > .page-title", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div/div[4]/div/article/div/div/div", "xpath:idRelative"],
+        ["xpath=//article/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e27e96f-8953-4d0c-beb3-e5df2025e335",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.sc_list > li:nth-child(1) > a",
+      "targets": [
+        ["css=.sc_list > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Agriculture')])[4]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/div/div[4]/div/article/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'institutions-offering-agriculture-with-field-agricultural-sciences-at-bachelor-level-in-pakistan-page-1')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": "ranks"
+    }, {
+      "id": "4d03fed6-cc41-40d4-8c77-20f2565c976c",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.sc_list > li:nth-child(2) > a",
+      "targets": [
+        ["css=.sc_list > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Plant Breeding & Genetics')])[2]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/div/div[4]/div/article/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'institutions-offering-plant-breeding-genetics-with-field-agricultural-sciences-at-bachelor-level-in-pakistan-page-1')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "ranks"
+    }, {
+      "id": "4600e040-eda4-45a0-8780-76bcbbd80f07",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=li:nth-child(18) > a",
+      "targets": [
+        ["css=li:nth-child(18) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Plant Pathology & Plant Protection')])[2]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/div/div[4]/div/article/div/div[2]/ul/li[18]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'institutions-offering-plant-pathology-plant-protection-with-field-agricultural-sciences-at-bachelor-level-in-pakistan-page-1')])[3]", "xpath:href"],
+        ["xpath=//li[18]/a", "xpath:position"]
+      ],
+      "value": "ranks"
+    }]
+  }],
+  "suites": [{
+    "id": "11a5b7fc-ef9e-47ad-806a-c3cfabc8b546",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b30e15ba-fa13-449d-bdcf-33e0b439d9cc"]
+  }],
+  "urls": ["https://www.eduvision.edu.pk/"],
+  "plugins": []
+}

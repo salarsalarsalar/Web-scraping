@@ -1,0 +1,89 @@
+{
+  "id": "9068015f-a548-4d66-a625-47b88ee9c3e0",
+  "version": "2.0",
+  "name": "University",
+  "url": "https://www.eduvision.edu.pk",
+  "tests": [{
+    "id": "b30e15ba-fa13-449d-bdcf-33e0b439d9cc",
+    "name": "University",
+    "commands": [{
+      "id": "98e31afc-cd26-44aa-9524-2aa691938535",
+      "comment": "",
+      "command": "open",
+      "target": "/programs-offered-in-engineering-at-bachelor-level-in-pakistan",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d24a043-5109-410b-b3b3-f235ed4bbf98",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e931b560-4d25-4f99-b28d-e3ff184d59da",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,127)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6665cb4f-35ab-4c52-a61f-1c20764703f6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,850)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a5ed1ae-9f18-4856-afef-ea89dc96425b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,987)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8c0ddbd-3ba2-46a8-b660-4821e90b606b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.list-group-item:nth-child(3) .btn:nth-child(1)",
+      "targets": [
+        ["css=.list-group-item:nth-child(3) .btn:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Universities')])[9]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/div/div[3]/div/div[2]/ul/li[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'institutions-offering-civil-with-field-engineering-at-bachelor-level-in-pakistan-page-1')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36866a32-7387-4b95-b707-e2de3dfe5d53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(3) .btn:nth-child(1)",
+      "targets": [
+        ["css=.list-group-item:nth-child(3) .btn:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Universities')])[9]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/div/div[3]/div/div[2]/ul/li[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'institutions-offering-civil-with-field-engineering-at-bachelor-level-in-pakistan-page-1')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e36f6722-8ad2-4b13-adc6-2c7d0c379097",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,537)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "11a5b7fc-ef9e-47ad-806a-c3cfabc8b546",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b30e15ba-fa13-449d-bdcf-33e0b439d9cc"]
+  }],
+  "urls": ["https://www.eduvision.edu.pk/"],
+  "plugins": []
+}
